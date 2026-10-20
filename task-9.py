@@ -1,13 +1,21 @@
 
-def koeffitsiyentlar(a):
-    def qiymat(b):
-        return a*b
-    return qiymat
+sonlar = [12, 7, 5, 18, 9, 4]
+def tahlil_qil(sonlar):
+    juft_sonlar = 0
+    toq_sonlat = 0
+    eng_katta=sonlar[0]
 
-koeffitsiyent = 7
-qiymat = 4
+    for i in sonlar:
+        if i%2==0:
+             juft_sonlar+=i
+        else:
+            toq_sonlat+=i
+        if i > eng_katta:
+            eng_katta = i
+         
+    print(f"Juft sonlar yig'indisi: {juft_sonlar}")
+    print(f"Toq sonlar yig'indisi: {toq_sonlat}")
+    print(f"Eng katta son: {eng_katta}")
 
-amal = koeffitsiyentlar(koeffitsiyent)
-natija = amal(qiymat)
+tahlil_qil(sonlar)
 
-print(f"Natija:{natija}")
