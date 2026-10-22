@@ -7,4 +7,4 @@ if Mahsulot_nomi in mahsulotlar:
     print("narx yangilandi")
     print(mahsulotlar)
 else:
-    print("xatolik")
+    print("Mahsulot topilmadi")

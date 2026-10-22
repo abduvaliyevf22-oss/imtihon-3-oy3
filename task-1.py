@@ -7,5 +7,5 @@ yangi = 0
 for mat in matritsa:
     for x in mat:
         yangi +=x
-print(yangi)
+print(f"Yig'indi:{yangi}")
 

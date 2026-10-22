@@ -23,4 +23,4 @@ if topildi:
         json.dump(ozgaruvchi, f)
     print("yangilandi")
 else:
-    print("xatolik")
+    print("Mahsulot topilmadi")
